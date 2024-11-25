@@ -1,0 +1,30 @@
+{
+  "name": "appium-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "Mohamed Said Ibrahim",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@wdio/cli": "",
+    "appium": "^2.12.1",
+    "appium_js": "file:",
+    "appium-javascript": "file:",
+    "appium-Javascript": "file:",
+    "webdriverio": "^9.3.1"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^9.3.1",
+    "@wdio/mocha-framework": "^9.2.8",
+    "@wdio/selenium-standalone-service": "",
+    "@wdio/spec-reporter": "",
+    "@wdio/sync": "^5.16.10",
+    "@wdio/visual-service": "^6.2.2",
+    "appium-uiautomator2-driver": "^3.9.0",
+    "chai": "^4.2.0"
+  }
+}
